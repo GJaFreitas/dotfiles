@@ -1,0 +1,7 @@
+#!/bin/sh
+
+currentdir=$(pwd)
+newfile=(${currentdir}/$1.c)
+
+cat ~/.templateC.txt >> $newfile
+nvim $newfile

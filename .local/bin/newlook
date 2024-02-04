@@ -1,0 +1,17 @@
+#!/bin/sh
+Interval=300
+sleep 1
+while true; do
+
+	wall=$(find ~/wall -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.jpeg"| shuf -n 1)
+	# Change wallpaper
+	swww img $wall --transition-step 20 --transition-fps 60 --transition-type center
+
+# Change colorscheme
+wal -c
+wal -i $wall
+
+sleep $Interval
+done
+
+
