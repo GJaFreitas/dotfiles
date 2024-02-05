@@ -1,3 +1,6 @@
+--start lsp
+vim.cmd.LspStart()
+
 --fat ass cursor straight up
 vim.opt.guicursor = ""
 
@@ -36,3 +39,4 @@ vim.opt.colorcolumn = "147"
 vim.g.mapleader = " "
 
 vim.cmd("set splitright")
+vim.cmd("hi LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=#ffffff guibg=NONE")

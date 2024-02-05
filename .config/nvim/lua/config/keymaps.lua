@@ -28,8 +28,8 @@ vim.keymap.set("n", "Q", "<nop>")
 --replace current word (omg this is amazing)
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/<left>")
 
---CMD line but beatifull
-vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', {noremap = true})
-
--- Lazygit integratio
+-- Lazygit integration
 vim.keymap.set("n", "<leader>g", '<cmd>FloatermNew --height=35 --width=130 lazygit<CR>')
+
+-- Create fold > zf
+-- Toggle fold > za
