@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Get wallpaper being used at the moment
-wall=$(swww query | awk '{print$8}')
-
-# Change colors
-wal -c
-wal -q -i $wall

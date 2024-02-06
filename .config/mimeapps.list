@@ -1,0 +1,7 @@
+[Default Applications]
+x-scheme-handler/discord-589393213723246592=discord-589393213723246592.desktop
+
+[Added Associations]
+image/png=swappy.desktop;
+image/jpeg=feh.desktop;
+image/gif=feh.desktop;

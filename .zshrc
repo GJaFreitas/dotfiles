@@ -112,5 +112,5 @@ alias GO="Hyprland"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-~/.local/bin/colors> out.log 2> /dev/null
+(cat ~/.cache/wal/sequences &)
 fastfetch
