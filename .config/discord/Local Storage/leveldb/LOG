@@ -1,6 +1,0 @@
-2024/01/22-17:51:26.896 1535 Reusing MANIFEST /home/bag/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/01/22-17:51:26.896 1535 Recovering log #14
-2024/01/22-17:51:26.896 1535 Reusing old log /home/bag/.config/discord/Local Storage/leveldb/000014.log 
-2024/01/22-17:55:07.570 15b3 Level-0 table #20: started
-2024/01/22-17:55:07.601 15b3 Level-0 table #20: 2786818 bytes OK
-2024/01/22-17:55:07.602 15b3 Delete type=0 #14
